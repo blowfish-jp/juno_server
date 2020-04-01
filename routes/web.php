@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('hello', 'HelloController@index');
+Route::get('prefectures', 'PrefectureController@index');
